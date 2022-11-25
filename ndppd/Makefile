@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ndppd
 PKG_VERSION:=0.2.6
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 # Latest release
 #PKG_SOURCE_URL:=https://codeload.github.com/DanielAdolfsson/ndppd/tar.gz/$(PKG_VERSION)?
@@ -18,10 +18,10 @@ PKG_RELEASE:=1
 PKG_LICENSE:=GPL-3.0-or-later
 
 # Development snapshot
-PKG_SOURCE_URL=https://github.com/DanielAdolfsson/ndppd.git
+PKG_SOURCE_URL:=https://github.com/domosekai/ndppd.git
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION=e01d67a864bbeeb8e15f35ad955aecafa52e4c3d
-PKG_SOURCE_SUBDIR=$(PKG_NAME)-$(PKG_VERSION)
+PKG_SOURCE_VERSION:=bugfix
+PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 

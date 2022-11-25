@@ -2,7 +2,7 @@ Index: ndppd-0.2.6/src/ndppd.cc
 ===================================================================
 --- ndppd-0.2.6.orig/src/ndppd.cc
 +++ ndppd-0.2.6/src/ndppd.cc
-@@ -295,7 +295,7 @@ int main(int argc, char* argv[], char* e
+@@ -300,7 +300,7 @@ int main(int argc, char* argv[], char* e
      signal(SIGINT, exit_ndppd);
      signal(SIGTERM, exit_ndppd);
  
