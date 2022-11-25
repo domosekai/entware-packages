@@ -7,4 +7,4 @@ More packages for Entware
 
 - ndppd
 
-  Development version 0.2.6.
+  Development version 0.2.6 with bugfix and enhancement.
