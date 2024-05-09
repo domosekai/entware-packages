@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ndppd
 PKG_VERSION:=0.2.6
-PKG_RELEASE:=2
+PKG_RELEASE:=3
 
 # Latest release
 #PKG_SOURCE_URL:=https://codeload.github.com/DanielAdolfsson/ndppd/tar.gz/$(PKG_VERSION)?
